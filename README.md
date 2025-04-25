@@ -1,2 +1,2 @@
-# guide
-My own personal guide 
+# Guide
+My own personal guide on computer stuffs
