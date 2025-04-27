@@ -142,15 +142,15 @@ Example:
   # Hello World!
   # ...
   ```
-  since `True` is always True it falls into a loop
+since `True` is always True it falls into a loop
   
-  **PRO TIP:**
-  
-  using a break statment can stop these type of loops.
-  Example:
-  
-    ```python
+**PRO TIP:**
+using a break statment can stop these type of loops.
+Example:
+(using while loop)
+  ```python
       while True:
         <statements>
+
         break
-    ```
+  ```
