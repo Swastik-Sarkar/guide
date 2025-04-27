@@ -113,7 +113,9 @@ Now let's learn about some basic statements
             # 2
             # 3
         ```
-        input("n = ") takes input from user and value is stored in variable x, range(0, x) generates numbers starting from 0 up to x-1, if i == 1: checks if i is equal to 1, continue skips the printing step if i is 1, print(i) prints the current value of i if it's not skipped. <br> `break` &larr; ends program <br> `continue` &larr; skips/continues a statement
+        Here *input("n = ")* takes input from user and value is stored in variable *x*, *range(0, x)* generates numbers starting from 0 up to x-1, *if i == 1:* checks if i is equal to 1, continue skips the printing step if i is 1, *print(i)* prints the current value of i if it's not skipped.
+
+       `break` &larr; ends program <br> `continue` &larr; skips/continues a statement
 **pass statement:**
 `pass` statement is a placeholder for future code.
 Syntax:
@@ -166,7 +168,7 @@ Example:
   - `str` &larr; Represents strings which are sentences/sequences of characters. (eg: "hi", "hello wassup")
   - `list` &larr; Represents ordered, mutable(changable) sequences of items (eg: [1, 2, 3], ['a', 'b', 'c'])
   - `tuple` &larr; Represents ordered, immutable(unchangeable) sequence of items (eg: (1, 2, 3), ('a', 'b', 'c'))
-- Mapping Types
+- Mapping Types:
   - `dict` &larr; Represents dictionaries, which are collection of key value pairs. (eg: {"a": "1", "2": "b"})
 - Set types:
   - `set` &larr; Represents sets, which are unordered collections of unique values. (eg: {1, 2, 3})
@@ -179,6 +181,95 @@ Example:
   - `memoryview` &larr; Creates a view of the byte array, allowing direct access to memory.
 - None Type:
   - `none` &larr; Represents absense of value. (eg: none)
+
+## Mathmetical Operators
+
+We can do simple to complex mathmetics using python!
+
+**Some operands are:**
+  - `+` &larr; addition
+  - `-` &larr; substraction
+  - `/` &larr; division
+  - `//` &larr; floor division(no decimal point)
+  - `**` &larr; power
+  - `*` &larr; multiplication
+  - `%` &larr; modulus(remainder)
+
+## Identifying Errors using exception:
+Identifying the errors in your program is like a cheatcode to fix it very fast
+
+**Some error types are:**
+  - `SyntaxError`&larr; Raised when the code contains syntax errors, like typos or incorrect grammar.
+  - `TypeError`&larr; Occurs when an operation or function is applied to an object of an inappropriate type.
+  - `NameError`&larr; Raised when a variable is not found in the local or global scope.
+  - `IndexError`&larr; Triggered when trying to access an index that is out of range in a sequence (like a list or tuple).
+  - `KeyError`&larr; Raised when trying to access a key that does not exist in a dictionary.
+  - `ValueError`&larr; Occurs when a function receives an argument of the correct type but an inappropriate value.
+  - `AttributeError`&larr; Raised when an object does not have the attribute being accessed.
+  - `IOError`&larr; Triggered when an input/output operation (like file reading or writing) fails.
+  - `ZeroDivisionError`&larr; Raised when dividing a number by zero.
+  - `ImportError`&larr; Occurs when an import statement fails to find or load a module.
+  - `AssertionError`&larr; Raised when an `assert` statement fails (the condition evaluates to false).
+  - `IndentationError`&larr; Raised when the indentation of the code is incorrect.
+  - `NotImplementedError`&larr; Occurs when an abstract method or function is not implemented in a derived class.
+  - `StopIteration`&larr; Signals the end of an iteration sequence, raised when an iterator has no more items.
+  - `FloatingPointError`&larr; Raised when a floating-point operation fails.
+  - `LookupError`&larr; Base class for exceptions related to lookup operations, such as `IndexError` and `KeyError`.
+
+## Assertions in python:
+We can assert values and raise a `AssertionError` if the expression is False.
+Example:
+```python
+x = 2
+assert x > 10, "x should be greater than 10"
+# = OUTPUT = #
+# ...
+# AssertionError: x should be greater than 10
+```
+Since we asserted that x is greater than 10... if we assign value less than 10 to x, it will raise `AssertionError`.
+
+## String Literals:
+Types:
+
+1. Multi line strings &larr; Allows user to use multiple lines.
+   - usage:
+     ```python
+     print("""line1
+     line 2
+     line 3
+     """)
+     ```
+2. Raw strings &larr; Allows users to bypass escape sequence characters and print them.
+    - usage:
+      `print(r"C:\Users\Admin")`
+      
+3. Formatted strings &larr; Allows user to call variables inside a string.
+    - usage:
+      ```python
+      a = 1
+      print(f"Value of A is : {a}) # {} is used to call the variable
+      ```
+
+## Text manipulation:
+
+We can manipulate text in various ways!
+Usage:
+  `"string".manipulator()` (except for 3.)
+1. `upper()` &larr; Format's text in Uppercase
+2. `lower()` &larr; Format's text in Lowercase
+3. Variables with text:
+   - Example:
+     ```python
+     a = 5
+     print("string", a) # Best way to use int with str
+     b = 10
+     c = str(b) # Conversion Of STRING to INTEGER
+     print("string" + c)
+     # = OUTPUT = #
+     # string 5
+     # string10
+     ```
+   
 
 
 
