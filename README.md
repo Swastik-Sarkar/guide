@@ -10,6 +10,12 @@ Thank you for being here and trusting me to be a part of your learning journey. 
 
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
+## 🆕 Update Logs:
+
+You can now track all the detailed updates here 👉 [**Update Logs**](./UPDATES.md)
+
+
+
 ### 🔥 What You’ll Find Here:
 Beginner to Advanced Computer Skills
 Programming Basics (Python, JavaScript, C++, and more)
