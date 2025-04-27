@@ -21,7 +21,7 @@ Now let's learn about some basic statements
 
 ---
 
-# Statements
+## Statements
 **I/O (input/output) statements :**
 
   - `print()` &larr; Used to print text
@@ -154,3 +154,32 @@ Example:
 
         break
   ```
+
+## Data types:
+
+**Data types are generally of 7 types:**
+- Numeric Types:
+  - `int` &larr; Represents integers. (eg: 10, 0, -10)
+  - `float` &larr; Represents floating point numbers. (eg: 3.14, 0.00001, -23.12)
+  - `complex` &larr; Represents complex numbers (eg: 5 + j, 3 + 2j, 12 + j)
+- Sequence Types:
+  - `str` &larr; Represents strings which are sentences/sequences of characters. (eg: "hi", "hello wassup")
+  - `list` &larr; Represents ordered, mutable(changable) sequences of items (eg: [1, 2, 3], ['a', 'b', 'c'])
+  - `tuple` &larr; Represents ordered, immutable(unchangeable) sequence of items (eg: (1, 2, 3), ('a', 'b', 'c'))
+- Mapping Types
+  - `dict` &larr; Represents dictionaries, which are collection of key value pairs. (eg: {"a": "1", "2": "b"})
+- Set types:
+  - `set` &larr; Represents sets, which are unordered collections of unique values. (eg: {1, 2, 3})
+  - `frozenset` &larr; Represents sets but immutable.
+- Boolean types:
+  - `bool` &larr; Represents booleans. (eg: True, False)
+- Binary types: (**!ADVANCE LEVEL!**):
+  - `bytes` &larr; Represnts immutable sequences of bytes.
+  - `bytearray` &larr; Represents mutable sequences of bytes.
+  - `memoryview` &larr; Creates a view of the byte array, allowing direct access to memory.
+- None Type:
+  - `none` &larr; Represents absense of value. (eg: none)
+
+
+
+ #### ([Next Part?](https://github.com/Swastik-Sarkar/guides/blob/main/contents/python/part2.md))
