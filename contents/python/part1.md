@@ -6,8 +6,19 @@ Python is a coding laguage known for its simplicity and easy understandable synt
 - Latest python version ([Install Python](https://www.python.org/downloads/))
 - Code Editor of your choice
 
+## Contents
+1. [Basic Syntax](#Basic-Syntax)
+2. [Statements](#Statements)
+3. [Data Types](#Data-types)
+4. [Mathmetical Operators](#Mathmetical-Operators)
+5. [Error identification](#Identifying-Errors-using-exception)
+6. [Assertion](#Assertions-in-python)
+7. [String Literals](#String-Literals)
+8. [Text manipulation](#Text-manipulation)
+9. [Part2](https://github.com/Swastik-Sarkar/guides/blob/main/contents/python/part2.md)
+
 ---
-### Basic Syntax
+## Basic Syntax
 
 ```python
 print("Hello World!")
@@ -157,7 +168,7 @@ Example:
         break
   ```
 
-## Data types:
+## Data types
 
 **Data types are generally of 7 types:**
 - Numeric Types:
@@ -195,10 +206,10 @@ We can do simple to complex mathmetics using python!
   - `*` &larr; multiplication
   - `%` &larr; modulus(remainder)
 
-## Identifying Errors using exception:
+## Identifying Errors using exception
 Identifying the errors in your program is like a cheatcode to fix it very fast
 
-**Some error types are:**
+**Some error types are**
   - `SyntaxError`&larr; Raised when the code contains syntax errors, like typos or incorrect grammar.
   - `TypeError`&larr; Occurs when an operation or function is applied to an object of an inappropriate type.
   - `NameError`&larr; Raised when a variable is not found in the local or global scope.
@@ -216,7 +227,7 @@ Identifying the errors in your program is like a cheatcode to fix it very fast
   - `FloatingPointError`&larr; Raised when a floating-point operation fails.
   - `LookupError`&larr; Base class for exceptions related to lookup operations, such as `IndexError` and `KeyError`.
 
-## Assertions in python:
+## Assertions in python
 We can assert values and raise a `AssertionError` if the expression is False.
 Example:
 ```python
@@ -228,7 +239,7 @@ assert x > 10, "x should be greater than 10"
 ```
 Since we asserted that x is greater than 10... if we assign value less than 10 to x, it will raise `AssertionError`.
 
-## String Literals:
+## String Literals
 Types:
 
 1. Multi line strings &larr; Allows user to use multiple lines.
@@ -250,7 +261,7 @@ Types:
       print(f"Value of A is : {a}) # {} is used to call the variable
       ```
 
-## Text manipulation:
+## Text manipulation
 
 We can manipulate text in various ways!
 Usage:
