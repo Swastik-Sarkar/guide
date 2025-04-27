@@ -182,4 +182,4 @@ Example:
 
 
 
- #### ([Next Part?](https://github.com/Swastik-Sarkar/guides/blob/main/contents/python/part2.md))
+ #### ([Goto Next Part?](https://github.com/Swastik-Sarkar/guides/blob/main/contents/python/part2.md))
