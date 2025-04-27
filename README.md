@@ -20,3 +20,5 @@ Real-World Projects (Small coding or tech projects to practice what you learn)
 
 #### 💬 Always feel free to ask questions or suggest topics you'd like to see!
 Together, we'll make this space a growing library of awesome knowledge!
+---
+
