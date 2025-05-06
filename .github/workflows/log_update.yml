@@ -32,4 +32,4 @@ jobs:
         git config --global user.email "swastikschool.hvm@gmail.com"
         git add updates.md
         git commit -m "Automated update log"
-        git push
+        git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }} HEAD:main
