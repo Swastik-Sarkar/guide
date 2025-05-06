@@ -8,7 +8,26 @@ Please keep in mind: there might be some mistakes here and there, as growth is a
 Feel free to point them out or share your own insights, we can learn together!
 Thank you for being here and trusting me to be a part of your learning journey. 🚀
 
+
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+
+# 📄 Disclaimer
+
+This guide is a personal initiative created with the intent to help beginners learn Python in a structured and accessible manner.
+
+I am **not a professional teacher**, nor do I have formal experience in teaching or curriculum design. This content is based on my own understanding, learning experiences, and enthusiasm for programming.
+
+> ⚠️ **Please note:**
+> This guide has been developed with significant help from **OpenAI's ChatGPT**, an AI language model. ChatGPT was used to:
+
+* Refine explanations and formatting
+* Suggest clear code examples
+* Improve grammar and structure
+* Ensure beginner-friendly language
+
+While every effort has been made to keep the content accurate and up-to-date, there may still be errors or gaps. If you find any, contributions and suggestions are always welcome via issues or pull requests.
+
+
 
 ## 🆕 Update Logs:
 
