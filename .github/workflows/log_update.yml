@@ -1,4 +1,4 @@
-name: Log Update to updates.md
+name: Log Update to UPDATES.md
 
 on:
   push:
@@ -30,6 +30,6 @@ jobs:
       run: |
         git config --global user.name "kb_swastik"
         git config --global user.email "swastikschool.hvm@gmail.com"
-        git add updates.md
+        git add UPDATES.md
         git commit -m "Automated update log"
         git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }} HEAD:main
