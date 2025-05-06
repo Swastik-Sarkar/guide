@@ -1,0 +1,35 @@
+name: Log Update to updates.md
+
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  update_log:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python environment
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.11.9'  
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install gitpython 
+
+    - name: Run log update script
+      run: python log_update.py 
+
+    - name: Commit and push updates.md
+      run: |
+        git config --global user.name "kb_swastik"
+        git config --global user.email "swastikschool.hvm@gmail.com"
+        git add updates.md
+        git commit -m "Automated update log"
+        git push
