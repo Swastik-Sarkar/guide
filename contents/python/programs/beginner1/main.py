@@ -1,10 +1,4 @@
 # IT IS RECOMENDED TO FULLY UNDERSTAND THE CONCEPT BEFORE GOING FOR PROGRAMS
-# CONCEPTS COVERED IN THIS PROGRAM
-# - I/O
-# - logical statements
-# - control statements
-# - error handling
-# - basic datatypes
 
 # Program to input a value as float type and perform mathmateical operations on it.
 
