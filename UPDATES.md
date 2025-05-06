@@ -5,3 +5,4 @@
 | 25-Apr-2025 | Launched this repository |
 | 27-Apr-2025 | First python guide |
 | 06-May-2025 | Automated workflow |
+| 06-May-2025 | Update UPDATES.md |
